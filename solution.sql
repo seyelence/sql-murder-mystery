@@ -1,8 +1,7 @@
 select * from crime_scene_report 
 where date = 20180115 and city = "SQL City" and type = "murder"
 
-select max(address_number), name
-from person
+select max(address_number), name from person
 where address_street_name='Northwestern Dr'
 
 select * from person
